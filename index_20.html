@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>용인삼성생명블루밍스농구단</title>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="./static/css/style_20.css" type="text/css">
+
+<!--<script src="./static/js/lib/jquery-1.11.3.min.js"></script>-->
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript" src="./static/js/iframeResizer.min.js"></script>
+<script type="text/javascript" src="./static/js/jquery.cookie.js"></script>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/static/css/ie.css">
+<script src="/static/js/lib/html5shiv.min.js"></script>
+<script src="/static/js/lib/respond.js"></script>
+<![endif]-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162421623-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-162421623-1');
+</script>
+
+</head>
+<body>
+<div id="pageIndex">
+    <a href="#contents" class="shortcut_g">본문내용보기</a>
+    <a href="#pageGnb" class="shortcut_g">메뉴바로가기</a>
+</div>
+<div id="wrap">
+    <header id="header">
+        <div class="inner_header">
+            <h1 class="page_logo"><a href="/"><img src="./static/images/common/logo.jpg" alt=""></a></h1>
+            <nav class="nav_wrapper">
+                <ul class="list_menu">
+                    <li class="menu1"><a href="/b/history.jsp" class="link_menu">BLUEMINX</a>
+                        <ul class="sub_menu">
+                            <li><a href="/b/greeting.jsp">인사말</a></li>
+							<li><a href="/b/history.jsp">연혁</a></li>
+							<li><a href="/b/ci.jsp">CI</a></li>
+							<li><a href="/b/office.jsp">사무국</a></li>
+							<li><a href="/b/classroom.jsp">농구교실</a></li>
+							<li><a href="/b/social.jsp">사회공헌</a></li>
+							<li><a href="/b/sponsor.jsp">스폰서</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu2"><a href="/p/coach_staff.jsp" class="link_menu">PLAYER</a>
+						<ul class="sub_menu">
+                            <li><a href="/p/coach_staff.jsp">코칭스태프</a></li>
+							<li><a href="/p/player_list.jsp">선수</a></li>
+							<li><a href="/p/cheer.jsp">응원단</a></li>
+                        </ul>
+					</li>
+                    <li class="menu3"><a href="/g/game_schedule.jsp" class="link_menu">GAME</a>
+						<ul class="sub_menu">
+                            <li><a href="/g/game_schedule.jsp">경기일정 및 결과</a></li>
+							<li><a href="/g/team_ranking.jsp">팀순위</a></li>
+							<li><a href="/g/player_record.jsp">선수기록</a></li>
+							<li><a href="/g/home_ground.jsp">홈경기장</a></li>
+							<li><a href="/g/ticket.jsp">티켓안내</a></li>
+                        </ul>
+					</li>
+                    <li class="menu4"><a href="/e/news_list.jsp" class="link_menu">MEDIA</a>
+						<ul class="sub_menu">
+                            <li><a href="/e/news_list.jsp">팀소식</a></li>
+							<li><a href="/e/notice_list.jsp">공지사항</a></li>
+							<li><a href="/e/photo_list.jsp">포토갤러리</a></li>
+							<li><a href="https://www.facebook.com/goblueminx" target="_blank">페이스북</a></li>
+							<li><a href="https://www.instagram.com/goblueminx" target="_blank">인스타그램</a></li>
+							<li><a href="https://www.youtube.com/channel/UCrz0wWdmp-ZhRIVcbuJxETA" target="_blank">유튜브</a></li>
+							<li><a href="http://post.naver.com/my.nhn?memberNo=23205701" target="_blank">네이버포스트</a></li>
+                        </ul>
+					</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu_all_wrap">
+            <div class="inner_wrapper">
+				<h1 class="menu_all_logo"><img src="/static/images/common/all_menu_logo.png" alt=""></h1>
+				<ul class="menu_all_cont">
+					<li>
+						<dl class="menu_all_list">
+							<dt>TEAM</dt>
+							<dd><a href="/b/greeting.jsp">인사말</a></dd>
+							<dd><a href="/b/history.jsp">연혁</a></dd>
+							<dd><a href="/b/ci.jsp">CI</a></dd>
+							<dd><a href="/b/office.jsp">사무국</a></dd>
+							<dd><a href="/b/classroom.jsp">농구교실</a></dd>
+							<dd><a href="/b/social.jsp">사회공헌</a></dd>
+							<!-- <dd><a href="/b/happypoint.jsp">해피포인트</a></dd> -->
+							<dd><a href="/b/sponsor.jsp">스폰서</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl class="menu_all_list">
+							<dt>PLAYER</dt>
+							<dd><a href="/p/coach_staff.jsp">코칭스태프</a></dd>
+							<dd><a href="/p/player_list.jsp">선수</a></dd>
+							<!-- <dd><a href="javascript:alert('준비중입니다')">선수</a></dd> -->
+							<dd><a href="/p/cheer.jsp">응원단</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl class="menu_all_list">
+							<dt>GAME</dt>
+							<dd><a href="/g/game_schedule.jsp">경기일정 및 결과</a></dd>
+							<dd><a href="/g/team_ranking.jsp">팀순위</a></dd>
+							<dd><a href="/g/player_record.jsp">선수기록</a></dd>
+							<dd><a href="/g/home_ground.jsp">홈경기장</a></dd>
+							<dd><a href="/g/ticket.jsp">티켓안내</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl class="menu_all_list">
+							<dt>MEDIA</dt>
+							<dd><a href="/e/news_list.jsp">팀소식</a></dd>
+							<dd><a href="/e/notice_list.jsp">공지사항</a></dd>
+							<dd><a href="/e/photo_list.jsp">포토갤러리</a></dd>
+							<dd><a href="https://www.facebook.com/goblueminx" target="_blank">페이스북</a></dd>
+							<dd><a href="https://www.instagram.com/goblueminx" target="_blank">인스타그램</a></dd>
+							<dd><a href="https://www.youtube.com/channel/UCrz0wWdmp-ZhRIVcbuJxETA" target="_blank">유튜브</a></dd>
+							<dd><a href="http://post.naver.com/my.nhn?memberNo=23205701" target="_blank">네이버포스트</a></dd>
+						</dl>
+					</li>
+				</ul>  
+            </div>
+            <div class="button_block">
+                <a href="#none" class="off"><span class="txt_off">전체메뉴보기</span><span class="txt_on">전체메뉴닫기</span></a>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="contents" class="main_20">
+		<div id="innerContents">
+			<h2 class="screen_out">본문내용</h2>
+			<div id="cMain">
+                <section class="main_visual">
+                    <div class="news_wrap">
+						<!-- news  -->
+						<h3 class="">NEWS</h3>
+							<div class="player_bg" id="leftPlayer"></div>
+							<div class="player_bg"id="rightPlayer"></div>
+							<div class="main_content news_slide">
+								<div class="slider">
+                                    <div class="item">
+										<a href="javascript:;">
+											<div class="frame_g"><img src="https://via.placeholder.com/150" alt=""></div>
+											<p class="txt">삼성생명, 여자농구 3대3 트리플잼 2차 대회 우승</p>
+										</a>
+                                    </div>
+                                    <div class="item">
+										<a href="javascript:;">
+											<div class="frame_g"><img src="https://via.placeholder.com/150" alt=""></div>
+											<p class="txt">삼성생명, 여자농구 3대3 트리플잼 2차 대회 우승</p>
+										</a>
+                                    </div>
+                                    <div class="item">
+										<a href="javascript:;">
+											<div class="frame_g"><img src="https://via.placeholder.com/150" alt=""></div>
+											<p class="txt">삼성생명, 여자농구 3대3 트리플잼 2차 대회 우승</p>
+										</a>
+                                    </div>
+                                    <div class="item">
+										<a href="javascript:;">
+											<div class="frame_g"><img src="https://via.placeholder.com/150" alt=""></div>
+											<p class="txt">삼성생명, 여자농구 3대3 트리플잼 2차 대회 우승</p>
+										</a>
+									</div>
+								</div>
+							</div>
+					</div>
+					<!-- //news -->
+                </section>
+                
+                <!-- 공지 -->
+                <section class="main_content main_notice clear">
+					<span class="notice">notice</span>
+					<a href="javascript:;">2020-2021 하프 시즌권 구매 안내</a>
+					<span class="date">2020-10-21</span>
+                </section>
+                
+                <!-- GAME INFO  홈경기일때만 보여짐 -->
+                <section class="game_info">
+                    <div class="main_content">
+						<!-- photo gallery -->
+						<h3 class="col_wh">GAME INFO</h3>
+							<div class="clear">
+							    <div class="col game_con">
+							        <div class="next_game">
+							            <h5>NEXT GAME</h5>
+							            <span class="date">2020-12-04 (금) 17:00 용인</span>
+							            <div class="team">
+							                <img src="https://www.wkbl.or.kr/static/images/team/teamlogo_03.png" alt="">삼성생명
+							            </div>
+										<div class="center">VS<a href="javascript:;" class="btn_ticket">티켓예매</a></div>
+							            <div class="team">
+											<img src="https://www.wkbl.or.kr/static/images/team/teamlogo_09.png" alt="">삼성생명
+							            </div>
+							        </div>
+							        <div class="last_game">
+							            <h5>LAST GAME</h5>
+							            <ul>
+							                <li class="clear">
+							                    <span class="date">2020-11-29 (일)</span>
+							                    <span class="home">삼성생명</span>
+							                    <span class="score">71 : 61</span>
+							                    <span>신한은행</span>
+							                    <span class="result win">승</span>
+							                </li>
+							                <li class="clear">
+							                    <span class="date">2020-11-26 (목)</span>
+							                    <span>우리은행</span>
+							                    <span class="score">84 : 56</span>
+							                    <span class="home">삼성생명</span>
+							                    <span class="result lose">패</span>
+							                 </li>
+							                <li class="clear">
+							                    <span class="date">2020-11-23 (월)</span>
+							                    <span class="home">삼성생명</span>
+							                    <span class="score">84 : 56</span>
+							                    <span>KB스타즈</span>
+							                    <span class="result win">승</span>
+							                 </li>
+							            </ul>
+							        </div>
+							    </div>
+							    <div class="col info_con">
+									<div class="stats_con">
+										<h5>STATS</h5>
+										<div class="clear stats">
+											<div class="col">경기수<strong>35</strong></div>
+											<div class="col">성적<strong>19승 16패</strong></div>
+											<div class="col">승률<strong>0.543</strong></div>
+											<div class="col">현재순위<strong>1위</strong></div>
+										</div>
+									</div>
+							        <div class="player_con">
+							            <h5>TOP PLAYERS</h5>
+							            <div class="tab_wrap">
+							                <div class="tab_list">
+							                    <a href="#score">득점</a>
+							                    <a href="#rebound">리바운드</a>
+							                    <a href="#asist">어시스트</a>
+							                </div>
+							                <div class="tab_con">
+							                    <div id="score">
+							                        <span>득점 1위</span>
+							                        <span class="name">배해윤</span>
+							                        <strong class="score">3.97</strong>
+							                        <span class="frame_g"><img src="./static/images/20/player_3.png" alt="선수이름"></span>
+							                    </div>
+							                    <div id="rebound">
+							                        <span>리바운드 1위</span>
+							                        <span class="name">배해윤</span>
+							                        <strong class="score">3.97</strong>
+							                        <span class="frame_g"><img src="./static/images/20/player_3.png" alt="선수이름"></span>
+							                    </div>
+							                    <div id="asist">
+							                        <span>어시스트 1위</span>
+							                        <span class="name">배해윤</span>
+							                        <strong class="score">30.97</strong>
+							                        <span class="frame_g"><img src="./static/images/20/player_3.png" alt="선수이름"></span>
+							                    </div>
+							                </div>
+							            </div>
+							        </div>
+							    </div>
+							</div>
+						<!-- //photo gallery -->
+                    </div>
+                </section>
+                
+				<section class="sns_slide_wrap">
+					<!-- BLUEMINX SNS -->
+					<div class="sns">
+					<h3>#BLUEMINX <span class="col_bl">SNS</span></h3>
+						<div class="main_content sns_slide">
+							<div class="slider">
+								<div class="item">
+									<a href="/e/photo_view.jsp?idx=3251" class="" target="_blank">
+										<div class="frame_g"><img src="https://via.placeholder.com/235x235" alt=""></div>
+										<span class="md_pt_caption">트리플잼 2차 대회에서 예선 전승으로 4강에 직행한 블루밍스트리플잼 2차 대회에서 예선 전승으로 4강에 직행한 블루밍스!</span>
+									</a>
+								</div>
+							
+								<div class="item">
+									<a href="/e/photo_view.jsp?idx=3242" class="" target="_blank">
+										<div class="frame_g"><img src="https://via.placeholder.com/235x235" alt=""></div>
+										<span class="md_pt_caption">삼성트레이닝센터에서 화사한 꽃과 함께 :) #어떤게 #꽃인가</span>
+									</a>
+								</div>
+							
+								<div class="item">
+									<a href="/e/photo_view.jsp?idx=3236" class="" target="_blank">
+										<div class="frame_g"><img src="https://via.placeholder.com/235x235" alt=""></div>
+										<span class="md_pt_caption">vs 신한은행 (박신자컵 8월 18일)</span>
+									</a>
+								</div>
+							
+								<div class="item">
+									<a href="/e/photo_view.jsp?idx=3230" class="" target="_blank">
+										<div class="frame_g"><img src="https://via.placeholder.com/235x235" alt=""></div>
+										<span class="md_pt_caption">vs 하나원큐 (박신자컵 8월 17일)</span>
+									</a>
+								</div>
+							
+								<div class="item">
+									<a href="/e/photo_view.jsp?idx=3229" class="" target="_blank">
+										<div class="frame_g"><img src="https://via.placeholder.com/235x235" alt=""></div>
+										<span class="md_pt_caption">vs 대학선발 (박신자컵 8월 16일)</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- //BLUEMINX SNS -->
+				</section>
+					
+					<!-- photo gallery -->
+					<section class="photo_wrap">
+						<div class="main_content">
+						<h3 class="">PHOTO</h3>
+							<div class="media_photo clear">
+                               <div class="col photo_left">
+                                    <div class="item">
+                                        <a href="/e/photo_view.jsp?idx=3251" class="">
+                                            <span class="md_pt_caption">vs 하나원큐 (박신자컵 8월 21일)</span>
+                                            <img src="/function/image_stream.jsp?path=photo_board&filename=45747ab7-c7a0-46cc-b10e-c1e0ed590f45" alt="vs 하나원큐 (박신자컵 8월 21일)" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col photo_right">
+                                    <div class="item">
+                                        <a href="/e/photo_view.jsp?idx=3242" class="">
+                                            <span class="md_pt_caption">vs BNK썸 (박신자컵 8월 20일)</span>
+                                            <img src="/function/image_stream.jsp?path=photo_board&filename=961ae141-16e2-4bb5-8812-55a8d31bc9ce" alt="vs BNK썸 (박신자컵 8월 20일)" />
+                                        </a>
+                                    </div>
+
+                                    <div class="item">
+                                        <a href="/e/photo_view.jsp?idx=3236" class="">
+                                            <span class="md_pt_caption">vs 신한은행 (박신자컵 8월 18일)</span>
+                                            <img src="/function/image_stream.jsp?path=photo_board&filename=730b5f1f-1609-47ab-bf2e-60d786b0d372" alt="vs 신한은행 (박신자컵 8월 18일)" />
+                                        </a>
+                                    </div>
+
+                                    <div class="item">
+                                        <a href="/e/photo_view.jsp?idx=3230" class="">
+                                            <span class="md_pt_caption">vs 하나원큐 (박신자컵 8월 17일)</span>
+                                            <img src="/function/image_stream.jsp?path=photo_board&filename=3509a231-db1a-4570-afaa-f08880358397" alt="vs 하나원큐 (박신자컵 8월 17일)" />
+                                        </a>
+                                    </div>
+
+                                    <div class="item">
+                                        <a href="/e/photo_view.jsp?idx=3229" class="">
+                                            <span class="md_pt_caption">vs 대학선발 (박신자컵 8월 16일)</span>
+                                            <img src="/function/image_stream.jsp?path=photo_board&filename=85f8c2ed-f793-4606-a78c-33a886a85c8d" alt="vs 대학선발 (박신자컵 8월 16일)" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<!-- //photo gallery -->
+					</section>
+					<section class="solcial_wrap ">
+						<div class="main_content clear">
+						    <a href="" class="col" target="_blank"><img src="./static/images/20/icon_sns_f.jpg" alt="블루밍스 페이스북 바로가기"></a>
+						    <a href="" class="col" target="_blank"><img src="./static/images/20/icon_sns_i.jpg" alt="블루밍스 인스타그램 바로가기"></a>
+						    <a href="" class="col" target="_blank"><img src="./static/images/20/icon_sns_y.jpg" alt="블루밍스 유튜브 바로가기"></a>
+						    <a href="" class="col" target="_blank"><img src="./static/images/20/icon_sns_np.jpg" alt="블루밍스 네이버포스트 바로가기"></a>
+						    <a href="" class="col" target="_blank"><img src="./static/images/20/icon_sns_shop.jpg" alt="블루밍스 쇼핑몰 바로가기"></a>
+						</div>
+					</section>
+					<section class="blueminx_sponsor">
+						<div class="main_content">
+							<div class="m_sp_slider slider">
+								<a href="http://www.samsunglife.com/" target="_blank" title="삼성생명 사이트 새 창 열림"><img src="/static/images/blueminx/img_sponsor_01.jpg" alt="삼성생명"/></a>
+								<a href="http://www.kelme-korea.com/" target="_blank" title="켈미코리아 사이트 새 창 열림"><img src="/static/images/blueminx/img_sponsor_12.jpg" alt="켈미코리아"/></a>
+								<a href="https://www.leaderscosmetics.com/" target="_blank" title="리더스코스메틱 사이트 새 창 열림"><img src="/static/images/blueminx/img_sponsor_03.jpg" alt="리더스코스메틱"/></a>
+								<a href="http://www.hospitalyes.co.kr/" target="_blank" title="예스병원 사이트 새 창 열림"><img src="/static/images/blueminx/img_sponsor_13.jpg" alt="예스병원"/></a>
+								<a href="http://www.momstouch.co.kr/" target="_blank" title="맘스터치 사이트 새 창 열림"><img src="/static/images/blueminx/img_sponsor_14.jpg" alt="맘스터치"/></a>
+								<a href="#" target="_blank" title="수향미 사이트 새 창 열림"><img src="/static/images/blueminx/img_sponsor_15.jpg" alt="수향미"/></a>
+								<a href="https://www.kmi.or.kr/" target="_blank" title="KMI 사이트 새 창 열림"><img src="/static/images/blueminx/img_sponsor_16.jpg" alt="KMI"/></a>
+								<a href="http://www.nordicsleep.co.kr" target="_blank" title="노르딕슬립 사이트 새 창 열림"><img src="/static/images/blueminx/img_sponsor_17.jpg" alt="노르딕슬립"/></a>
+							</div>
+						</div>
+					</section>
+			</div>
+		</div>
+    </section>
+
+
+<script type="text/javascript">
+	function checkPopCookie(idx) {
+	    var dt = new Date();
+	    var y = dt.getFullYear();
+	    var m = dt.getMonth();
+	    var d = dt.getDay();
+	    var ymd = y +''+ m +''+ d;
+	    var ck = $.cookie("blueminx_pop_"+ idx);
+	
+	    if (ck != ymd) {
+	        return true;
+	    } else {
+	        return false;
+	    }
+	}
+
+    function doPressPopup(idx, link) {
+        var en_link = encodeURIComponent(link);
+        window.open("/e/press_news_popup.jsp?idx="+ idx +"&link="+ en_link);
+    }
+
+    function doPopup(idx, width, height, left, top) {
+        var pop = checkPopCookie(idx);
+        if (pop) {
+            height = height + 30;
+            window.open('/function/popup.jsp?idx=' + idx, 'new_'+ idx, 'scrollbars=no,toolbar=no,location=no,status=no,menubar=no,resizable=yes,width=' + width + ',height=' + height + ',left=' + left + ',top=' + top);
+        }
+    }
+</script>
+
+
+
+<footer id="footer">
+	<div class="wrap_foot"><a href="#" class="bt_footer js__layer" data-target="layerPrivacy">개인정보 처리방침</a></div>
+        <div class="inner_footer">COPYRIGHTⒸ CHEIL WORLDWIDE. ALL RIGHTS RESERVED.</div>
+    </footer>
+</div>
+
+
+<script>
+    
+function uiLayerOpen(){
+    var selector = '.js__layer',
+        layerWrap = '.layer__wrapper',
+        dimmed = '.dimmed__layer';
+
+    $(selector).click(function(){
+        $dataTarget = $(this).attr('data-target');
+        if($dataTarget){
+            $('body').addClass('layer__active');
+            $('#'+$dataTarget).addClass('is__active');
+            //$(_this.target).addClass('is_active');
+            setTimeout(function(){
+                $('#'+$dataTarget).find(dimmed).fadeIn('fast');    
+            }, 200);
+            
+        }
+        return false;
+    });
+    if($(layerWrap).hasClass('layer_open')){
+        $('body').addClass('layer__active');
+        $('.layer_open').addClass('is__active');    
+        setTimeout(function(){
+            $('.layer__wrapper.layer_open').find(dimmed).fadeIn('fast');    
+        }, 200);
+    }
+}
+
+function uiLayerClose(){
+    var bt = '.js_ly_close, .layer__wrapper .btn_close',
+        btClose = '.js_ly_close',
+        selector = '.js_layer',
+        layerWrap = '.layer__wrapper',
+        dimmed = '.dimmed__layer';
+    
+    $(bt).click(function(){
+        var $ele = $(this).parents(layerWrap);
+
+        $ele.addClass('is__delay');
+        $ele.find(dimmed).fadeOut('fast');
+        setTimeout(function(){
+            $ele.removeClass('is__delay');
+            $('body').removeClass('layer__active');
+            $ele.removeClass('is__active');
+        }, 200);
+        return false;
+    });
+}
+uiLayerOpen();
+uiLayerClose();
+</script>
+<script src="./static/js/ui.js?20171026"></script>
+<script src="./static/js/main.js"></script>
+
+</body>
+</html>
+
